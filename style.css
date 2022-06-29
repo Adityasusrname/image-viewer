@@ -1,0 +1,27 @@
+.imagesContainer{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-top: 200px;
+}
+.image{
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    box-shadow: 10px 10px 10px red;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    column-gap: 80px;
+}
+button{
+    height: 200px;
+    font-size: 100px;
+    background-color: aliceblue;
+}
+button:hover{
+    cursor: pointer;
+}
